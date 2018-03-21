@@ -16,6 +16,7 @@ class Triangle
     elsif s1 != s2 && s2 != s3 && s1 != s3 
       return :scalene
     else begin raise TriangleError
+      rescuq TriangleError => error
     end
     end
   end
