@@ -17,6 +17,7 @@ class Triangle
       return :scalene
     else begin raise TriangleError
       rescuq TriangleError => error
+        puts error.message
     end
     end
   end
