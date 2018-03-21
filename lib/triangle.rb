@@ -11,6 +11,7 @@ class Triangle
   def kind
     if s1 == s2 && s1 == s3
       return :equilateral
+    end
   end
   
 end
