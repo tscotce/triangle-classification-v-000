@@ -11,7 +11,7 @@ class Triangle
   def kind
     if s1 == s2 && s1 == s3 && s1 > 0
       return :equilateral
-    elsif s1 == s2 || s2 == s3 || s1 == s3 && s1 != 0 && s1 > 0
+    elsif s1 == s2 || s2 == s3 || s1 == s3 && s1 > 0
       return :isosceles
     elsif s1 != s2 && s2 != s3 && s1 != s3 && s1 > 0 && s2 > 0 && s3 > 0
       return :scalene
