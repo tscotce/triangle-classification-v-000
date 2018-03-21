@@ -13,6 +13,7 @@ class Triangle
       return :equilateral
     elsif s1 == s2 || s2 == s3 || s1 == s3
       return :isosceles
+    else return :scalene
     end
   end
   
